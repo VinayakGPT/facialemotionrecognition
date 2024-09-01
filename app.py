@@ -16,7 +16,7 @@ class_labels = [
     'happy'
 ]
 
-st.title('Emotion Classification with Streamlit')
+st.title('Facial Emotion Recognition (Grayscale images)')
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
 if uploaded_file is not None:
